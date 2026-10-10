@@ -22,9 +22,15 @@ class ProfileCard extends StatelessWidget {
               'John Doe',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
-            Text('Flutter Developer', style: TextStyle(fontSize: 16)),
+            Text(
+              'Flutter Developer',
+              style: TextStyle(fontSize: 16, color: Colors.grey),
+            ),
             Text(
               'Passionate about creating user-friendly and engaging digital experiences.',
+              style: TextStyle(fontSize: 11, color: Colors.grey[800]),
+              textAlign: .center,
+              maxLines: 2,
             ),
             SizedBox(height: 20),
             Divider(color: Colors.grey[300], thickness: 1),
